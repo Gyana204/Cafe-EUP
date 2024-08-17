@@ -1,0 +1,82 @@
+.home-container{
+    padding-top: 7rem;
+	padding-bottom: 5.5rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./images/Banner2.webp') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+    height: 600px;
+}
+
+.introduction{
+    color: beige;
+}
+
+.home-container .h1-large {
+	margin-bottom: 1.75rem;
+	color: #ffffff;
+}
+.h1-large {
+    font-size: 3.75rem;
+    line-height: 4.625rem;
+}
+
+
+.col-lg-6{
+    width: 40%;
+}
+
+.text-container{
+    text-align: left;
+    padding-left: 10%;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	border: 1px solid #0b36a8;
+	background-color: #0b36a8;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
+.home-container .btn-solid-lg:hover {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.btn-outline-lg {
+	display: inline-block;
+	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	border: 1px solid #24262a;
+	background-color: transparent;
+	color: #24262a;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-outline-lg:hover {
+	background-color: #24262a;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.home-container .btn-outline-lg {
+	padding: 1.625rem 1.625rem 1.625rem 1.625rem;
+	border: none;
+	color: #ffffff;
+}
+
