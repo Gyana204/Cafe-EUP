@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "@/Header/Header";
 import Menu from "@/Menu/Menu";
 import Footer from "@/Footer/Footer";
+import  "bootstrap/dist/css/bootstrap.min.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
