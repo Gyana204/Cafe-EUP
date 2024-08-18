@@ -1,11 +1,14 @@
-.home-container{
+.wd100{
+	width: 100%;
+}
+/* .home-container{
     padding-top: 7rem;
 	padding-bottom: 5.5rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./images/Banner2.webp') center center no-repeat;
 	background-size: cover;
 	text-align: center;
     height: 600px;
-}
+} */
 
 .introduction{
     color: beige;
@@ -21,13 +24,18 @@
 }
 
 
-.col-lg-6{
+.home-text-container{
     width: 40%;
 }
 
 .text-container{
     text-align: left;
     padding-left: 10%;
+}
+
+.home-container .text-container {
+	text-align: left;
+    padding-left: 25%;
 }
 
 .btn-solid-lg {
@@ -152,8 +160,8 @@
 /*******************/
 .split .area-1 {
 	height: 430px;
-	/* background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat; */
-	background-size: cover;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('./images/profile.jpg') center center no-repeat;
+	/* background-size: cover; */
 }
 
 .split .area-2 {
@@ -173,4 +181,104 @@
 	width: 50px;
 	margin-right: 0.625rem;
 	margin-bottom: 0.75rem;
+}
+
+/* Details */
+.split {
+	height: 760px;
+}
+
+.split .area-1 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-2 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.split .text-container {
+	/* width: 400px; */
+	width: 80%;
+	margin-left: 3rem;
+}
+/* end of details */
+
+
+/********************/
+/*     Projects     */
+/********************/
+.basic-3 {
+	padding-top: 7.75rem;
+	padding-bottom: 1rem;
+}
+
+.basic-3 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.basic-3 .p-heading {
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.basic-3 .text-container {
+	margin-bottom: 4rem;
+}
+
+.basic-3 .image-container {
+	margin-bottom: 1rem;
+}
+
+/* Hover Animation */
+.basic-3 .image-container {
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.basic-3 .image-container img {
+	margin: 0;
+	transition: all 0.2s;
+}
+
+.basic-3 .image-container:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} 
+/* end of hover animation */
+
+/*******************/
+/*     Contact     */
+/*******************/
+.form-1 {
+	padding-top: 7.75rem;
+	padding-bottom: 7rem;
+	text-align: center;
+}
+
+.form-1 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.form-1 .p-heading {
+	margin-bottom: 4rem;
+}
+
+/* Contact */
+.form-1 form {
+	width: 790px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wd100px{
+	width: 100px;
 }
